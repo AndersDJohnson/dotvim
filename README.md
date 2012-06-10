@@ -1,15 +1,19 @@
-Installation:
+[projectlink]: http://github.com/AndersDJohnson/dotvim
 
-    git clone git://github.com/AndersDJohnson/dotvim.git ~/.vim
+[dotvim][projectlink]
+=====================
 
-Create symlinks:
+Installation
+------------
 
-    ln -s ~/.vim/vimrc ~/.vimrc
-    ln -s ~/.vim/gvimrc ~/.gvimrc
+1. Clone repository into a `$HOME/.vim` directory:
+   * `git clone git://github.com/AndersDJohnson/dotvim.git ~/.vim`
 
-Switch to the `~/.vim` directory, and fetch submodules:
+2. Create symlinks:
+   * `ln -s ~/.vim/vimrc ~/.vimrc`
+   * `ln -s ~/.vim/gvimrc ~/.gvimrc`
 
-    cd ~/.vim
-    git submodule init
-    git submodule update
-
+3. Switch to the `~/.vim` directory, and fetch submodules:
+   * `cd ~/.vim`
+   * `git submodule init`
+   * `git submodule update`

@@ -1,7 +1,7 @@
 " pathogen plugin
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
-" call pathogen#infect()
+call pathogen#infect()
+" call pathogen#runtime_append_all_bundles()
+" call pathogen#helptags()
 
 " line numbers
 set number

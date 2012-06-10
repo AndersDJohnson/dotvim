@@ -14,6 +14,7 @@ Installation
    * `ln -s ~/.vim/gvimrc ~/.gvimrc`
 
 3. Switch to the `~/.vim` directory, and fetch submodules:
-   * `cd ~/.vim`
-   * `git submodule init`
-   * `git submodule update`
+   1. `cd ~/.vim`
+   2. `git submodule init`
+   3. `git submodule update`
+

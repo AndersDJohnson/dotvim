@@ -8,6 +8,14 @@ call vundle#rc()
 " vundle manage self
 Bundle 'gmarik/vundle'
 
+Bundle 'MarcWeber/vim-addon-mw-utils'
+Bundle 'tomtom/tlib_vim'
+" Bundle 'snipmate-snippets'
+Bundle 'honza/snipmate-snippets'
+Bundle 'garbas/vim-snipmate'
+
+" Bundle 'msanders/snipmate.vim'
+" Bundle 'thomaspeklak/snipmate.vim'
 
 " pathogen plugins
 call pathogen#infect()

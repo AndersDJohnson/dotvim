@@ -1,10 +1,19 @@
 set nocompatible
 filetype off
 
-" pathogen plugin
+" vundle plugins
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" vundle manage self
+Bundle 'gmarik/vundle'
+
+
+" pathogen plugins
 call pathogen#infect()
 " call pathogen#runtime_append_all_bundles()
 " call pathogen#helptags()
+
 
 " line numbers
 set number

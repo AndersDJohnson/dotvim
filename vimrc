@@ -1,3 +1,6 @@
+set nocompatible
+filetype off
+
 " pathogen plugin
 call pathogen#infect()
 " call pathogen#runtime_append_all_bundles()

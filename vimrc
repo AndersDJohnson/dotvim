@@ -13,9 +13,11 @@ Bundle 'tomtom/tlib_vim'
 " Bundle 'snipmate-snippets'
 Bundle 'honza/snipmate-snippets'
 Bundle 'garbas/vim-snipmate'
-
 " Bundle 'msanders/snipmate.vim'
 " Bundle 'thomaspeklak/snipmate.vim'
+Bundle 'scrooloose/nerdtree'
+Bundle 'jistr/vim-nerdtree-tabs'
+Bundle 'kchmck/vim-coffee-script'
 
 " pathogen plugins
 call pathogen#infect()
@@ -56,7 +58,7 @@ set pastetoggle=<F2>
 set showmode
 
 " full mouse support
-set mouse=a
+" set mouse=a
 
 set wildmode=list:longest,full
 set wildmenu

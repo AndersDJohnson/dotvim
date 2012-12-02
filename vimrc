@@ -18,6 +18,7 @@ Bundle 'garbas/vim-snipmate'
 Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'kchmck/vim-coffee-script'
+" Bundle 'altercation/vim-colors-solarized'
 
 " pathogen plugins
 call pathogen#infect()

@@ -29,19 +29,24 @@ call pathogen#infect()
 " line numbers
 set number
 
-" tabs
-set autoindent
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
-
-" C-style indentation setup
-set cinkeys=0{,0},0),:,0#,!^F,o,),e
-
 " filetype detection
 if has("autocmd")
 	filetype plugin indent on
 endif
+
+" tabs
+"set autoindent
+"set smartindent
+set expandtab
+set copyindent
+set preserveindent
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+
+" C-style indentation setup
+"set cinkeys=0{,0},0),:,0#,!^F,o,),e
+
 
 " use \t in regex search
 :retab

@@ -1,5 +1,6 @@
 [submodule "bundle/vundle"]
 	path = bundle/vundle
-	url = git://github.com/gmarik/vundle.git
+	#url = git://github.com/gmarik/vundle.git
+	url = git//github.com/adjohnson916/vundle.git
 	ignore = dirty
 

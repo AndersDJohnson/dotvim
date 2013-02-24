@@ -6,7 +6,8 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " vundle manage self
-Bundle 'gmarik/vundle'
+" Bundle 'gmarik/vundle'
+Bundle 'AndersDJohnson/vundle'
 
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'tomtom/tlib_vim'

@@ -36,6 +36,8 @@ if has("autocmd")
 	filetype plugin indent on
 endif
 
+set modeline
+
 " tabs
 "set autoindent
 "set smartindent

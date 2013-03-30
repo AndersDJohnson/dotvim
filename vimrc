@@ -24,6 +24,7 @@ Bundle 'wavded/vim-stylus'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/syntastic'
+Bundle 'scrooloose/nerdcommenter'
 
 " pathogen plugins
 call pathogen#infect()

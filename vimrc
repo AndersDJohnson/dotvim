@@ -75,6 +75,9 @@ set showmode
 nnoremap <F7> :tabp<CR>
 nnoremap <F8> :tabn<CR>
 
+" NERDTree bindings
+map <C-n> :NERDTreeToggle<CR>
+
 " full mouse support
 " set mouse=a
 

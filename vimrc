@@ -23,6 +23,7 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'wavded/vim-stylus'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'kien/ctrlp.vim'
+Bundle 'scrooloose/syntastic'
 
 " pathogen plugins
 call pathogen#infect()

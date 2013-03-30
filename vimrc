@@ -71,6 +71,10 @@ nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
 set showmode
 
+" tab bindings
+nnoremap <F7> :tabp<CR>
+nnoremap <F8> :tabn<CR>
+
 " full mouse support
 " set mouse=a
 

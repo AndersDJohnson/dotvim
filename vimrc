@@ -21,6 +21,7 @@ Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'kchmck/vim-coffee-script'
 " Bundle 'altercation/vim-colors-solarized'
 Bundle 'wavded/vim-stylus'
+Bundle 'Lokaltog/vim-easymotion'
 
 " pathogen plugins
 call pathogen#infect()

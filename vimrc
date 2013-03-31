@@ -31,6 +31,13 @@ call pathogen#infect()
 " call pathogen#runtime_append_all_bundles()
 " call pathogen#helptags()
 
+" default (display) encoding utf-8
+set encoding=utf-8
+
+" show unwanted whitespace
+set listchars=tab:→\ ,trail:·
+set list
+
 
 " line numbers
 set number

@@ -1,5 +1,13 @@
 set nocompatible
-filetype off
+
+" syntax highlighting
+syntax on
+
+if has("autocmd")
+  " "all Bundle declarations have to happen when filetype off"
+  " https://github.com/gmarik/vundle/issues/210
+  filetype off
+endif
 
 " vundle plugins
 set rtp+=~/.vim/bundle/vundle/
@@ -31,6 +39,13 @@ call pathogen#infect()
 " call pathogen#runtime_append_all_bundles()
 " call pathogen#helptags()
 
+
+" re-enabled filetype detection after plugins
+if has("autocmd")
+	filetype plugin indent on
+endif
+
+
 " default (display) encoding utf-8
 set encoding=utf-8
 
@@ -46,11 +61,6 @@ set textwidth=0
 
 " line numbers
 set number
-
-" filetype detection
-if has("autocmd")
-	filetype plugin indent on
-endif
 
 set modeline
 
@@ -70,9 +80,6 @@ set shiftwidth=2
 
 " use \t in regex search
 :retab
-
-" syntax highlighting
-syntax on
 
 " search highlighing
 :set hlsearch

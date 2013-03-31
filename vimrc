@@ -38,6 +38,11 @@ set encoding=utf-8
 set listchars=tab:→\ ,trail:·
 set list
 
+" wrap lines for display
+set wrap
+
+" don't auto break long lines
+set textwidth=0
 
 " line numbers
 set number

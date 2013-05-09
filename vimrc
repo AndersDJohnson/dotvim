@@ -34,12 +34,15 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/syntastic'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'wannesm/wmnusmv.vim'
+Bundle 'Lokaltog/powerline'
 
 " pathogen plugins
 call pathogen#infect()
 " call pathogen#runtime_append_all_bundles()
 " call pathogen#helptags()
 
+" powerline
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 
 " re-enabled filetype detection after plugins
 if has("autocmd")
@@ -103,3 +106,9 @@ map <C-n> :NERDTreeToggle<CR>
 
 set wildmode=list:longest,full
 set wildmenu
+
+" 256 colors
+set t_Co=256
+set encoding=utf-8
+let g:Powerline_symbols = "fancy"
+set laststatus=2 " always show statusline

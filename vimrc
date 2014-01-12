@@ -35,6 +35,7 @@ Bundle 'scrooloose/syntastic'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'wannesm/wmnusmv.vim'
 Bundle 'Lokaltog/powerline'
+Bundle 'editorconfig/editorconfig-vim'
 
 " pathogen plugins
 call pathogen#infect()

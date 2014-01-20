@@ -79,6 +79,9 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 
+"backspace like most apps
+set backspace=indent,eol,start
+
 " C-style indentation setup
 "set cinkeys=0{,0},0),:,0#,!^F,o,),e
 

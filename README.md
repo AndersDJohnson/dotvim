@@ -3,7 +3,7 @@
 [dotvim][projectlink]
 =====================
 
-Installation
+Install
 ------------
 
 1. Clone repository into a `$HOME/.vim` directory:

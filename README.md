@@ -6,18 +6,16 @@
 Install
 ------------
 
-1. Clone repository into a `$HOME/.vim` directory:
+1. Clone repository into a `~/.vim` directory:
    * `git clone git://github.com/AndersDJohnson/dotvim.git ~/.vim`
 
-2. Create symlinks:
+2. Change into `~/.vim`, then fetch submodules:
+   1. `cd ~/.vim`
+   * `git submodule update --init --recursive`
+
+3. Create symlinks:
    * `ln -s ~/.vim/vimrc ~/.vimrc`
    * `ln -s ~/.vim/gvimrc ~/.gvimrc`
 
-3. Switch to the `~/.vim` directory, and fetch submodules:
-   1. `cd ~/.vim`
-   2. `git submodule init`
-   3. `git submodule update`
-
-4. Install vundle bundles:
+5. Install vundle bundles:
    1. `vim -c "BundleInstall"`
-

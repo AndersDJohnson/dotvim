@@ -7,7 +7,7 @@ Install
 ------------
 
 1. Clone repository into a `~/.vim` directory:
-   * `git clone git://github.com/AndersDJohnson/dotvim.git ~/.vim`
+   * `git clone https://github.com/AndersDJohnson/dotvim.git ~/.vim`
 
 2. Change into `~/.vim`, then fetch submodules:
    1. `cd ~/.vim`

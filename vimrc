@@ -37,6 +37,8 @@ Bundle 'scrooloose/nerdcommenter'
 Bundle 'wannesm/wmnusmv.vim'
 Bundle 'Lokaltog/powerline'
 Bundle 'editorconfig/editorconfig-vim'
+Bundle 'airblade/vim-gitgutter'
+
 
 " pathogen plugins
 call pathogen#infect()

@@ -56,6 +56,8 @@ endif
 
 " default (display) encoding utf-8
 set encoding=utf-8
+set fileencoding=utf-8
+
 
 " show unwanted whitespace
 set listchars=tab:→\ ,trail:·
@@ -70,6 +72,8 @@ set textwidth=0
 " line numbers
 set number
 
+set ruler
+
 set modeline
 
 " tabs
@@ -83,11 +87,27 @@ set softtabstop=2
 set shiftwidth=2
 
 "backspace like most apps
-set backspace=indent,eol,start
+"set backspace=indent,eol,start
+set backspace=2
 
 " C-style indentation setup
 "set cinkeys=0{,0},0),:,0#,!^F,o,),e
 
+" Hardmode to disable arrow keys
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+inoremap <Up> <Nop>
+inoremap <Down> <Nop>
+inoremap <Left> <Nop>
+inoremap <Right> <Nop>
+
+"So I can move around in insert
+inoremap <C-k> <C-o>gk
+inoremap <C-h> <Left>
+inoremap <C-l> <Right>
+inoremap <C-j> <C-o>gj
 
 " use \t in regex search
 :retab
@@ -99,11 +119,23 @@ set backspace=indent,eol,start
 " allow toggling auto-indent for pasting
 nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
+
 set showmode
+set showcmd
+set guioptions=
+
+set autoread
+set autochdir
+
+set matchpairs+=<:>
 
 " tab bindings
 nnoremap <F7> :tabp<CR>
 nnoremap <F8> :tabn<CR>
+
+set noerrorbells
+set visualbell
+set t_vb=
 
 " NERDTree bindings
 map <C-n> :NERDTreeToggle<CR>
